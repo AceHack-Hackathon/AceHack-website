@@ -121,23 +121,64 @@ function changeClass() {
   }
 }
 
+$(document).ready(function () {
+  $(".accordion-title").click(function (e) {
+    var accordionitem = $(this).attr("data-tab");
+    $("#" + accordionitem)
+      .slideToggle()
+      .parent()
+      .siblings()
+      .find(".accordion-content")
+      .slideUp();
+
+    $(this).toggleClass("active-title");
+    $("#" + accordionitem)
+      .parent()
+      .siblings()
+      .find(".accordion-title")
+      .removeClass("active-title");
+
+    $("i.fa-chevron-down", this).toggleClass("chevron-top");
+    $("#" + accordionitem)
+      .parent()
+      .siblings()
+      .find(".accordion-title i.fa-chevron-down")
+      .removeClass("chevron-top");
+  });
+});
+
 // ====================== Scroll Reveal ======================
 
 // Function to apply ScrollReveal to all elements with a specific class
-function applyScrollReveal(selector) {
-  const elements = document.querySelectorAll(selector);
-  elements.forEach(element => {
-    ScrollReveal().reveal(element);
-  });
-}
+// function applyScrollReveal(selector) {
+//   const elements = document.querySelectorAll(selector);
+//   elements.forEach(element => {
+//     ScrollReveal().reveal(element);
+//   });
+// }
 
 // Apply ScrollReveal to all relevant sections
-document.addEventListener('DOMContentLoaded', function() {
-  applyScrollReveal('.about-stats');
-  applyScrollReveal('.prize-section');
-  applyScrollReveal('.tracks-section');
-  applyScrollReveal('.sponsor-section');
-  applyScrollReveal('.judges-section');
-  applyScrollReveal('.footer-section');
-  // Add more selectors as needed
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   applyScrollReveal('.about-stats');
+//   applyScrollReveal('.prize-section');
+//   applyScrollReveal('.tracks-section');
+//   applyScrollReveal('.sponsor-section');
+//   applyScrollReveal('.judges-section');
+//   applyScrollReveal('.footer-section');
+// });
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+// const sr = ScrollReveal({
+//   origin: 'top',
+//   distance: '60px',
+//   duration: 2500,
+//   delay: 2000,
+//   // reset: true
+// })
+
+// sr.reveal('.timer-section, .buttons, .about-us, .about0us-desc')
+// sr.reveal('.home__info div', { delay: 600, origin: 'bottom', interval: 75 })
+// sr.reveal(`.skills__content:nth-child(1), contact__content:nth-child(1)`, { origin: 'left' })
+// sr.reveal('.skills__content:nth-child(2), contact__content:nth-child(2)', { origin: 'right' })
+// sr.reveal('.qualification__content, .services__card', { interval: 75 })

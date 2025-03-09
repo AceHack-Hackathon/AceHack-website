@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--=============== FAVICON ===============-->
-  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/imgs/favicon.ico" type="image/x-icon">
 
   <!--=============== ICONS ===============-->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -27,7 +27,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <script src="assets/JS/scrollreveal.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
 
   <title> AceHack - 4.0 | UEM Jaipur</title>
 </head>
@@ -46,10 +49,10 @@
       <ul class="nav-list">
         <li class="nav-item cyber-tile col"><a href="#about">About</a></li>
         <li class="nav-item cyber-tile col"><a href="#timeline">Timeline</a></li>
-        <li class="nav-item cyber-tile col"><a href="https://acehack-digital-swags.vercel.app/">Digital Swags</a></li>
+        <li class="nav-item cyber-tile col"><a href="https://ace-hack-hacker-swags.vercel.app/">Digital Swags</a></li>
         <li class="nav-item cyber-tile col"><a href="#tracks">Tracks</a></li>
-        <li class="nav-item cyber-tile col"><a href="#guests">Guests</a></li>
-        <li class="nav-item cyber-tile col"><a href="#">FAQ</a></li>
+        <li class="nav-item cyber-tile col"><a href="#mentors">Guests</a></li>
+        <li class="nav-item cyber-tile col"><a href="#faq">FAQ</a></li>
         <li class="nav-item cyber-tile col"><a href="#footer">Contact</a>
         </li>
       </ul>
@@ -123,7 +126,7 @@
 
   <!--=============ABOUT===================-->
   <section class="about-seperator cyber-razor-top">
-    <br>
+    <!-- <br> -->
   </section>
 
   <section class="about" id="about">
@@ -138,15 +141,14 @@
       <div class="d-flex about-us">
         <h2 class="cyber-title title-h2 cyber-title-box fg-yellow pad-15">About Us</h2>
       </div>
-      <div class="d-flex justify-content-center">
-        <p class="cyber-tile cyber-tile-clip bg-yellow">AceHack 4.0 is Rajasthan’s biggest student-run hackathon,
-          designed to bring together
-          students, innovators, and tech enthusiasts from across the country. It’s a 24-hour event where participants
-          collaborate, create, and solve real-world challenges through technology. This hackathon is more than just
-          coding—it’s a space to explore ideas, learn new skills, and connect with a like-minded community. Whether
-          you’re
-          a beginner or an experienced hacker, AceHack 4.0 provides the perfect platform to showcase your talent and
-          grow.<br>Join us as we redefine the future of technology and bring your boldest ideas to life!</p>
+      <div class="d-flex justify-content-center about-us-desc">
+        <p class="cyber-tile cyber-tile-clip bg-yellow ">AceHack 4.0 is Rajasthan’s biggest student-run hackathon,
+          designed to bring together sudents, innovators, and tech enthusiasts from across the country. It’s a 24-hour
+          event where participants collaborate, create, and solve real-world challenges through technology. This
+          hackathon is more than just coding—it’s a space to explore ideas, learn new skills, and connect with a
+          like-minded community. Whether you’re a beginner or an experienced hacker, AceHack 4.0 provides the perfect
+          platform to showcase your talent and grow.<br>Join us as we redefine the future of technology and bring your
+          boldest ideas to life!</p>
       </div>
 
 
@@ -221,120 +223,120 @@
     <div class="timeline">
       <h2 class="day title-h2">Day O1</h2>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">09:00 AM</h3>
           <h6 class="title-h6">Check-in Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">10:30 AM</h3>
           <h6 class="title-h6">Opening Ceremony</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">12:00 PM</h3>
           <h6 class="title-h6">Hacking Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">01:30 PM</h3>
           <h6 class="title-h6">Lunch</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">02:30 PM</h3>
           <h6 class="title-h6">Github Session</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">03:00 PM</h3>
           <h6 class="title-h6">Idea/Startup Pitching & Project Presentation</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">03:10 PM</h3>
           <h6 class="title-h6">Devdock AI Session</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">03:30 PM</h3>
           <h6 class="title-h6">Workshop 1</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">04:30 PM</h3>
           <h6 class="title-h6">Workshop 2</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">05:00 PM</h3>
           <h6 class="title-h6">Evening Tea & Snacks</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">06:00 PM</h3>
           <h6 class="title-h6">Mentoring Round 1</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">07:30 PM</h3>
           <h6 class="title-h6">Fun Zone Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">08:30 PM</h3>
           <h6 class="title-h6">Dinner + AceHack Unplugged</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">10:00</h3>
           <h6 class="title-h6">DJ Night</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3"> 11:50 PM</h3>
           <h6 class="title-h6">Mentoring Round 2</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">01:00 AM</h3>
           <h6 class="title-h6">Midnight Snacks</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">01:30 AM</h3>
           <h6 class="title-h6">Midnight Games</h6>
         </div>
@@ -342,71 +344,71 @@
 
       <h1 class="day">Day O2</h1>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">08:00 AM</h3>
           <h6 class="title-h6">Pulse Pump</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">08:30 AM</h3>
           <h6 class="title-h6">Breakfast</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">09:30 AM</h3>
           <h6 class="title-h6">Final Mentoring Round</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">10:00 AM</h3>
           <h6 class="title-h6">Submission Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">12:00 PM</h3>
           <h6 class="title-h6">Hackathon Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">01:30 PM</h3>
           <h6 class="title-h6">Lunch</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">02:15 PM</h3>
           <h6 class="title-h6">Judging Starts</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">05:00 PM</h3>
           <h6 class="title-h6">Swags Distribution</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">06:00 PM</h3>
           <h6 class="title-h6">Closing Ceremony</h6>
         </div>
       </div>
 
-      <div class="column bg-blue">
-        <div class="title">
+      <div class="timeline-event">
+        <div class="event">
           <h3 class="title-h3">07:30 PM</h3>
           <h6 class="title-h6">Bus Return</h6>
         </div>
@@ -417,13 +419,77 @@
     </div>
   </section>
 
-  <!--=============== Glimpses ===============-->
-  <!--BLACK - dots-->
-  <!-- <section class="album cyber-razor-top cyber-razor-bottom bg-blue">
-    <div class="d-flex justify-content-center">
-      <h1 class="cyber-title title-h1 fg-yellow">Glimpses</h1>
+  <!--=============== Tracks ===============-->
+  <!--yellow--->
+  <section class="tracks-section cyber-razor-top cyber-razor-bottom bg-blue" id="tracks">
+
+    <div class="d-flex justify-content-center track">
+      <h1 class="cyber-title title-h1 fg-yellow">Tracks</h1>
     </div>
-  </section> -->
+
+    <div class="prize-row track-start track-row">
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/blockchain-crypto.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Blockchain & Crypto</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/iot.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Internet of Things</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/cyber-security.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Cyber Security</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/ar-vr.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">AR & VR</h5>
+      </div>
+
+    </div>
+
+    <div class="prize-row track-end track-row">
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/data-gen-ai.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Data & Gen-AI</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/cloud-devops.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Cloud & DevOps</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/app-web-dev.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Web & App Dev</h5>
+      </div>
+
+      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
+        <p class="d-flex justify-content-center">
+          <img src="assets/imgs/track/open-innovation.svg" alt="" class="prize-img">
+        </p>
+        <h5 class="d-flex justify-content-center">Open Innovation</h5>
+      </div>
+    </div>
+  </section>
 
   <!--=============== Prize ===============-->
   <!--RED - lines-->
@@ -498,268 +564,6 @@
 
 
   </section>
-  <!--=============== Tracks ===============-->
-  <!--yellow--->
-  <section class="tracks-section cyber-razor-top cyber-razor-bottom bg-blue" id="tracks">
-
-    <div class="d-flex justify-content-center track">
-      <h1 class="cyber-title title-h1 fg-yellow">Tracks</h1>
-    </div>
-
-    <div class="prize-row track-start track-row">
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/blockchain-crypto.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Blockchain & Crypto</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/iot.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Internet of Things</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/cyber-security.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Cyber Security</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/ar-vr.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">AR & VR</h5>
-      </div>
-
-    </div>
-
-    <div class="prize-row track-end track-row">
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/data-gen-ai.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Data & Gen-AI</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/cloud-devops.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Cloud & DevOps</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/app-web-dev.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Web & App Dev</h5>
-      </div>
-
-      <div class="track-box d-inline justify-content-center fg-white cyber-tile-small cyber-tile-clip-small bg-yellow">
-        <p class="d-flex justify-content-center">
-          <img src="assets/imgs/track/open-innovation.svg" alt="" class="prize-img">
-        </p>
-        <h5 class="d-flex justify-content-center">Open Innovation</h5>
-      </div>
-    </div>
-  </section>
-
-  <section class="sponsor-section cyber-razor-top bg-gray" id="sponsors">
-    <div class="d-flex justify-content-center">
-      <h2 class="cyber-title title-h1 fg-yellow">Sponsors</h2>
-    </div>
-    <div class="d-flex justify-content-center organised-by">
-      <h3 class="cyber-title title-h3 fg-yellow">Organised By</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/organiser-3-uemj.png" alt="" class="sponsor-img">
-          </p>
-          <h5 class="d-flex justify-content-center title-h5">UEM Jaipur</h5>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/organiser-1-acmuemj.png" alt="" class="sponsor-img">
-          </p>
-          <h5 class="d-flex justify-content-center title-h5">ACM</h5>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/organiser-2-iic.png" alt="" class="sponsor-img">
-          </p>
-          <h5 class="d-flex justify-content-center title-h5">IIC</h5>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">Platform Sponsor</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-16-dorahacks.png" alt="" class="sponsor-img">
-          </p>
-          <h5 class="d-flex justify-content-center title-h4">DoraHacks</h5>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">Web3 Track Sponsor</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-13-devdock.png" alt="" class="sponsor-img">
-          </p>
-          <h5 class="d-flex justify-content-center title-h4">Devdock</h5>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">Bronze</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/jonathan.jpg" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Jonathan Chiang</h6>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">In-Kind Sponsor</h3>
-      <div class="prize-row d-flex justify-content-center in-kind">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-5-reskill.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Reskilll</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-9-ms-azure.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Microsoft Azure</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-12-azure-dev.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Azure Dev Community</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-15-commudle.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Commudle</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-19-interview-buddy.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">InterviewBuddy</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-18-app-write.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Appwrite</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-2-z-security.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Zsecurity</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-11-flatlogic.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Flatlogic</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-14-code-crafter.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">CodeCrafters</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-6-sybgen.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Sybgen</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-7-interview-cake.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Interview Cake</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-17-aops-online.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">AoPS Online</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-10-balsamiq.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">Balsamiq</h6>
-        </div>
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-1-xyz.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h4">XYZ Domains</h6>
-        </div>
-      </div>
-    </div>
-
-    <div class="sponsor-offer justify-content-center">
-      <div class="sponsor-line d-flex justify-content-center">
-        <h2 class="fg-white">Become a Sponsor for
-          <span class="fg-yellow">&nbsp;AceHack 4.0</span>
-        </h2>
-      </div>
-      <a href="https://drive.google.com/file/d/1zVtDsVrGbpHjZi5UXx9TMRDuGnDGHFw3/view?usp=sharing"
-        class="d-flex justify-content-center" target="_blank"><button
-          class="sponsor-us cyber-button bg-yellow cyber-glitch-2">Sponsor Us</button></a>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">Media Partner</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-3-tgh.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h5">The Global Hues</h6>
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <h3 class="cyber-title title-h3 fg-yellow">Ecosystem Partner</h3>
-      <div class="prize-row d-flex justify-content-center">
-        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
-          <p class="d-flex justify-content-center">
-            <img src="assets/imgs/Organizer-sponsors/sponsors-4-techsoc.png" alt="" class="sponsor-img">
-          </p>
-          <h6 class="d-flex justify-content-center title-h5">TechSoc</h6>
-        </div>
-      </div>
-    </div>
-
-  </section>
 
   <!--=============== Benefit/ Perks ===============-->
   <section class="perks-section cyber-razor-top cyber-razor-bottom bg-blue" id="perks">
@@ -815,37 +619,39 @@
 
   <!--=============== Judges / Mentors ===============-->
   <!--Yellow-->
-  <section class="judges-section cyber-razor-bottom bg-blue" id="guests">
+  <section class="judges-section cyber-razor-bottom bg-blue" id="mentors">
+
     <div class="d-flex justify-content-center">
       <h1 class="cyber-title title-h1 fg-yellow">Mentors & Judges</h1>
     </div>
     <div class="prize-row d-flex justify-content-center">
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/manindar_singh.jpeg" alt="" class="judges-img">
           </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Maninder Singh</h6>
+            <p class="position fg-white">iOS Dev @Cars24 | Ex-Zomato</p>
+          </div>
         </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Maninder Singh</h6>
-          <p class="position fg-black">IOS Dev @Cars24 | Ex-Zomato</p>
-        </div>
+
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/devendra_parihar.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Devendra Parihar</h6>
-          <p class="position">Research Scientist (AI/ML) @Sol BI | 3x Kaggle Expert</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Devendra Parihar</h6>
+            <p class="position fg-white">Research Scientist (AI/ML) @Sol BI | 3x Kaggle Expert</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -853,15 +659,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/pranav_malik.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Pranav Malik</h6>
-          <p class="position">SDE-II @Oracle | Ex-Microsoft, PayPal, DRDO</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Pranav Malik</h6>
+            <p class="position fg-white">SDE-II @Oracle | Ex-Microsoft, PayPal, DRDO</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -869,15 +675,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/piyush_sharma.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Piyush Sharma</h6>
-          <p class="position">Senior iOS Developer @BluSmart</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Piyush Sharma</h6>
+            <p class="position fg-white">Senior iOS Developer @BluSmart</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -885,15 +691,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/abhimanyu_shekhawat.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Abhimanyu Shekhawat</h6>
-          <p class="position">Co-founder @Epoch Protocol | Ex Co-founder @Slick Wallet</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Abhimanyu Shekhawat</h6>
+            <p class="position fg-white">Co-founder @Epoch Protocol | Ex Co-founder @Slick Wallet</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -901,15 +707,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container d-flex justify-content-center fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/yash_chatrat.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Yash Chatrath</h6>
-          <p class="position">Data Analyst @Sony | Founder Tech Holics | GSSocC24 Mentor </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Yash Chatrath</h6>
+            <p class="position fg-white">Data Analyst @Sony | Founder Tech Holics | GSSocC24 Mentor </p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -917,15 +723,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/chanpreet_singh.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Chanpreet Singh</h6>
-          <p class="position"></p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Chanpreet Singh</h6>
+            <p class="position fg-white"></p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -933,15 +739,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/sanket_kalekar.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Sanket Kalekar</h6>
-          <p class="position">SDE @Digi BREAD | GSSOC'24 mentor</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Sanket Kalekar</h6>
+            <p class="position fg-white">SDE @Digi BREAD | GSSOC'24 mentor</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -949,63 +755,63 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <!-- <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/nakshatra_goel.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Nakshatra Goel</h6>
-          <p class="position">Data Scientist @NielsenIQ</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Nakshatra Goel</h6>
+            <p class="position fg-white">Data Scientist @NielsenIQ</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <!-- <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/shyaamal_tripathi.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Shyaamal Tripathi</h6>
-          <p class="position"></p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Shyaamal Tripathi</h6>
+            <p class="position fg-white"></p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <!-- <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/ayon_roy.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Ayon Roy</h6>
-          <p class="position">Data Scientist @NielsenIQ</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Ayon Roy</h6>
+            <p class="position fg-white">Data Scientist @NielsenIQ</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/manav_gupta.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Manav Gupta</h6>
-          <p class="position">aka tensor._.boy | AI Researcher @ 100xEngineers | SIH'24 Judge</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Manav Gupta</h6>
+            <p class="position fg-white">aka tensor._.boy | AI Researcher @100xEngineers | SIH'24 Judge</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1013,15 +819,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/karan_vaswani.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Karan Vaswani</h6>
-          <p class="position">SDE @ NEC Corporation India Pvt Ltd. | Ex- Coding Ninjas</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Karan Vaswani</h6>
+            <p class="position fg-white">SDE @NEC Corporation India Pvt Ltd. | Ex-Coding Ninjas</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1029,15 +835,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/sristhi_gupta.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Srishti Gupta</h6>
-          <p class="position">@ PW | Ex- EY</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Srishti Gupta</h6>
+            <p class="position fg-white">@PW | Ex-EY</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1045,15 +851,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/rohan_kumar.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Rohan kumar</h6>
-          <p class="position">Co-Founder at Teachomatrix | SDE at MIDAS | Ex-Intern at Ringover, IITB</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Rohan kumar</h6>
+            <p class="position fg-white">Co-Founder at Teachomatrix | SDE at MIDAS | Ex-Intern at Ringover, IITB</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1061,15 +867,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/chinmay_pant.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Chinmay Prawah Pant</h6>
-          <p class="position">Software Engineer (Frontend) Gamezop | Ex-GrowAgro </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Chinmay Prawah Pant</h6>
+            <p class="position fg-white">Software Engineer (Frontend) Gamezop | Ex-GrowAgro </p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1077,15 +883,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/anadee.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Anadee</h6>
-          <p class="position">SDE @Equirus Wealth | Ex-Dreamboat.ai</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Anadee</h6>
+            <p class="position fg-white">SDE @Equirus Wealth | Ex-Dreamboat.ai</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1093,15 +899,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/shivam_goyal.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Shivam Goyal</h6>
-          <p class="position">SDE @ Junglee Games | Ex-OneBanc</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Shivam Goyal</h6>
+            <p class="position fg-white">SDE @Junglee Games | Ex-OneBanc</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1109,15 +915,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/kamal_kashyap.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Kamal Kashyap</h6>
-          <p class="position">Blockchain Developer@ TeBlox Labs | Ex-Drifko</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Kamal Kashyap</h6>
+            <p class="position fg-white">Blockchain Developer @TeBlox Labs | Ex-Drifko</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1125,31 +931,31 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <!-- <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/shivank_kapur.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Shivank Kapur</h6>
-          <p class="position">Member @SuperteamDAO | Ex-Router Protocol</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Shivank Kapur</h6>
+            <p class="position fg-white">Member @SuperteamDAO | Ex-Router Protocol</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/pawan_singhla.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Pawan Singhla</h6>
-          <p class="position">SDE @ Zigram | Ex-zunroof</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Pawan Singhla</h6>
+            <p class="position fg-white">SDE @Zigram | Ex-zunroof</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1157,15 +963,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/arpit_rastogi.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Arpit Rastogi</h6>
-          <p class="position">SDE @ HashedIn | Ex-Isourse, OneBanc</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Arpit Rastogi</h6>
+            <p class="position fg-white">SDE @HashedIn | Ex-Isourse, OneBanc</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1173,15 +979,15 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/taranjot_singh.jpeg" alt="" class="judges-img">
           </p>
-        </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Taranjot Singh</h6>
-          <p class="position">SIH 2022 Winner | Mentor @SIH 2023 | Won 6+ Hackathons</p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Taranjot Singh</h6>
+            <p class="position fg-white">SIH 2022 Winner | Mentor @SIH 2023 | Won 6+ Hackathons</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1189,15 +995,48 @@
         </div>
       </div>
 
-      <div class="judges-container justify-content-center fg-yellow">
-        <div class="judges-profile d-inline justify-content-center fg-yellow">
-          <p class="d-flex justify-content-center">
+      <!-- <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
             <img src="assets/imgs/acehack_mentors/soumen_paul.jpeg" alt="" class="judges-img">
           </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Soumen Paul</h6>
+            <p class="position fg-white">SDE-1 @Jar| Ex- Rooter, Spare8 | Winner - SIH'22</p>
+          </div>
         </div>
-        <div class="desc">
-          <h6 class="d-flex justify-content-center">Soumen Paul</h6>
-          <p class="position">SDE-1  @Jar| Ex- Rooter, Spare8 | Winner - SIH'22</p>
+        <div class="social-links justify-content-center d-flex">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+      </div> -->
+
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
+            <img src="assets/imgs/acehack_mentors/uday_sharma.jpeg" alt="" class="judges-img">
+          </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Uday Sharma</h6>
+            <p class="position fg-white">Founder & CEO of DevnDez | 2x Hackathon Judge & Mentor | Community Head at
+              HackShastra</p>
+          </div>
+        </div>
+        <div class="social-links justify-content-center d-flex">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="judges-container fg-yellow">
+        <div class="judges-profile d-flex justify-content-center fg-yellow">
+          <p class="mentor-name">
+            <img src="assets/imgs/acehack_mentors/harshavardhan_bajoria.jpeg" alt="" class="judges-img">
+          </p>
+          <div class="desc">
+            <h6 class="d-flex justify-content-center">Harshavardhan Bajoria</h6>
+            <p class="position fg-white">Associate Product Manager @Unstop</p>
+          </div>
         </div>
         <div class="social-links justify-content-center d-flex">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -1207,6 +1046,333 @@
     </div>
 
   </section>
+
+  <section class="sponsor-section cyber-razor-top bg-gray" id="sponsors">
+    <div class="d-flex justify-content-center">
+      <h2 class="cyber-title title-h1 fg-yellow">Sponsors</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Organised By</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/organiser-3-uemj.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h5">UEM Jaipur</h5>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/organiser-1-acmuemj.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h5">ACM</h5>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/organiser-2-iic.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h5">IIC</h5>
+        </div>
+
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/organiser-5-dept. ITC.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h5">Dept. of IT & Communication</h5>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/organiser-4-istart.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h5">iStart</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Powered By</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-31-zeroIndex.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h4">ZeroIndex</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Platinum</h3>
+      <div class="prize-row d-flex justify-content-center spl-category">
+        <div class="sponsor-box platinum-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-32-coredao.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">CoreDAO</h6>
+        </div>
+        <div class="sponsor-box platinum-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-34-educhain.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">EduChain</h6>
+        </div>
+        <div class="sponsor-box platinum-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-33-risein.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">RiseIn</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Gold</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box gold-sponsor d-inline justify-content-center fg-yellow cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-13-devdock.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h4">Devdock Ai</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Silver</h3>
+      <div class="prize-row d-flex justify-content-center spl-category">
+        <div class="sponsor-box silver-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-24-github.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Github</h6>
+        </div>
+        <div class="sponsor-box silver-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-25-nukhba.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Nukhba</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Bronze</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box bronze-sponsor d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/jonathan.jpg" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Jonathan Chiang</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Platform Sponsor</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-16-dorahacks.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h4">DoraHacks</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Web3 Security Partner</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-35-securedapp.png" alt="" class="sponsor-img">
+          </p>
+          <h5 class="d-flex justify-content-center title-h4">SecureDApp</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">In-Kind Sponsor</h3>
+      <div class="prize-row d-flex justify-content-center in-kind">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-5-reskill.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Reskilll</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-9-ms-azure.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Microsoft Azure</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-12-azure-dev.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Azure Dev Community</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-15-commudle.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Commudle</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-1-xyz.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">XYZ Domains</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-19-interview-buddy.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">InterviewBuddy</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-18-app-write.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Appwrite</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-11-flatlogic.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Flatlogic</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-2-z-security.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Zsecurity</h6>
+        </div>
+
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-14-code-crafter.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">CodeCrafters</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-6-sybgen.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Sybgen</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-7-interview-cake.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Interview Cake</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-17-aops-online.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">AoPS Online</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-10-balsamiq.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Balsamiq</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-23-blockpen.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Blockpen</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-21-cssbattle.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">CSSBattle</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-22-oreilly.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Oreilly</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-20-offsec.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h4">Offsec</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="sponsor-offer justify-content-center">
+      <div class="sponsor-line d-flex justify-content-center">
+        <h2 class="fg-white">Become a Sponsor for
+          <span class="fg-yellow">&nbsp;AceHack 4.0</span>
+        </h2>
+      </div>
+      <a href="https://drive.google.com/file/d/1zVtDsVrGbpHjZi5UXx9TMRDuGnDGHFw3/view?usp=sharing"
+        class="d-flex justify-content-center" target="_blank"><button
+          class="sponsor-us cyber-button bg-yellow cyber-glitch-2">Sponsor Us</button></a>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Media Partner</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-3-tgh.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h5">The Global Hues</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Ecosystem Partner</h3>
+      <div class="prize-row d-flex justify-content-center">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-4-techsoc.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center title-h5">TechSoc</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h3 class="cyber-title title-h3 fg-yellow">Community Partner</h3>
+      <div class="prize-row d-flex justify-content-center spl-category">
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-29-juverse.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center">JUVERSE</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-27-aryaClub.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center">The Hackathon Club</h6>
+        </div>
+        <div class="sponsor-box d-inline justify-content-center fg-yellow bg-blue cyber-tile-small">
+          <p class="d-flex justify-content-center">
+            <img src="assets/imgs/Organizer-sponsors/sponsors-30-scrapYard.png" alt="" class="sponsor-img">
+          </p>
+          <h6 class="d-flex justify-content-center">Hackclub Scrapyard Jaipur</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=============== Glimpses ===============-->
+  <!--BLACK - dots-->
+  <!-- <section class="album cyber-razor-top cyber-razor-bottom bg-blue">
+    <div class="d-flex justify-content-center">
+      <h1 class="cyber-title title-h1 fg-yellow">Glimpses</h1>
+    </div>
+  </section> -->
+
   <!--=============== Workshops/HackerTV ===============-->
   <!--Red-->
   <section class="videos">
@@ -1220,6 +1386,143 @@
   <!--=============== Contact Us ===============-->
   <!--yellow-->
   <section class="contact">
+
+    <section id="faq" class="faq-section">
+      <div class="container faq">
+        <div class="d-flex justify-content-center">
+          <h2 class="cyber-title title-h2 fg-yellow">Frequently Asked Questions (FAQs)</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="accordions">
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item1">
+                    <h4>What is AceHack 4.0?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item1">
+                    <p>
+                      AceHack 4.0 is one of Rajasthan's most exciting and inclusive hackathons. Itʼs a 36-hour in-person
+                      event where participants gather to learn, innovate, and create amazing projects.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item2">
+                    <h4>Where is AceHack 4.0 being held?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item2">
+                    <p>
+                      The event will be hosted at UEM Jaipur, Rajasthan.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item3">
+                    <h4>When is AceHack 4.0 taking place?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item3">
+                    <p>
+                      AceHack 4.0 is a 36-hour hackathon scheduled for March 29-30th, 2025.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>What is the allowed team size?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      Teams can consist of 2 to 4 members. Solo participation is also permitted.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>Do I need specific qualifications to participate in AceHack 4.0?<i
+                        class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      No specific qualifications are required! If you have a passion for technology, coding, and
+                      innovation, you are eligible. Participants under the age of 18 are welcome but must provide
+                      parental consent to attend.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>I am a newbie. Can I participate?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      Absolutely! AceHack 4.0 welcomes participants of all experience levels, from beginners to experts.
+                      Mentors and volunteers will be there to guide you throughout the event.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>Is there any registration fee for participation?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      No, AceHack 4.0 is completely free to join. Participants will receive goodies and swags to make
+                      the experience even more memorable.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>Can I start working on my project before the event?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      No, pre-work is not allowed. All project development must begin when the hackathon starts.
+                      However, you can familiarize yourself with tools and technologies in advance.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>What is the allowed team size?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      Teams can consist of 2 to 4 members. Solo participation is also permitted.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>What is the allowed team size?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      Teams can consist of 2 to 4 members. Solo participation is also permitted.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-title" data-tab="item4">
+                    <h4>What is the allowed team size?<i class="fa fa-chevron-down"></i></h4>
+                  </div>
+                  <div class="accordion-content" id="item4">
+                    <p>
+                      Teams can consist of 2 to 4 members. Solo participation is also permitted.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </section>
   <!--=============== Footer ===============-->
@@ -1343,7 +1646,6 @@
   <!--=============== MAIN JS ===============-->
 
   <script src="assets/JS/main.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
